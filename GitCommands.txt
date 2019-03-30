@@ -1,0 +1,31 @@
+Git init - To create a local repository
+Git remote add origin <GitHub https link> - To create a link between central and local repository
+Git pull origin master - to pull the files from Central repository to Local repository
+git status - to see the files present in the index (both tracked and untracked)
+git add <file name> - to add the modified tracked & untracked files to index.
+git add -A - To add multiple file to the index.
+git commit -m "commit message" - to commit a file in the local repository
+git commit -a -m "message" - to commit multiple files in local repo.
+it will also used to add the modified files(existing in index) in the index and commit to the local repo.
+git log - to see how git commits are stored
+git branch <branch name> - to create a branch from master branch
+git checkout <branch name> - to move from one branch to another branch
+ls - to list out files in master branch or created branch.
+git merge <name of the branch> - to merge the branch files to master branch (Note: to merge the files you should be at the destination branch which is master branch.
+cat <file name> - to read the content in the file
+git rebase master - 
+ssh-keygen - to generate public SSH key
+ssh -T git@github.com - to do SSH authentication.
+git push origin firstbranch - to create branch (other than main branch) in the central repo - from branch in the local repo
+git push origin master - to push changes to master branch - from master branch in local repo.
+git pull - git fetch + merge
+git checkout <first 8 digits of hexa code of the previos version> <file name> - to revert back the file to previous version.
+
+Question:
+can we push from branch to central repo?
+what is a build?
+
+
+
+git stash
+git reset HEAD <file name> - to unstage or uncommit a file***
